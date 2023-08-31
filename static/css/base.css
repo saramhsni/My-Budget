@@ -151,3 +151,54 @@ label {
 .negative-balance{
     color:red;
 }
+@media(max-width:600px){
+    .depenses-container{
+       display: block;
+    }
+    .footer{
+        display: block;
+        height:auto;
+    }
+    .container{
+        height: 100%;
+    }
+    .depense-field{
+        margin-bottom: 10px;
+        
+    }
+    .depenses-container{
+        margin-top: 20px;
+    }
+    .montant-field{
+        margin-bottom: 10px;
+    }
+    
+    .add-btn{
+        margin-bottom: 10px;
+    }
+    .income{
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+        margin-bottom: 20px;
+    }
+    .expense{
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    }
+    .balance{
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    }
+    .budget-field{
+        height: 89.4;
+        width: 132.61;
+    }
+    .depense-field{
+        height: 89.4;
+        width: 132.61;
+    }
+    .montant-field{
+        height: 89.4;
+        width: 132.61;
+    }
+    
+
+
+}
